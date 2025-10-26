@@ -1,0 +1,9 @@
+site_name: Psuedo's Random Docs
+theme:
+  name: material
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
