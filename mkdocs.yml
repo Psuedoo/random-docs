@@ -1,4 +1,6 @@
 site_name: Psuedo's Random Docs
+repo_url: https://github.com/Psuedoo/random-docs
+site_url: https://docs.psuedo.dev
 theme:
   name: material
 markdown_extensions:
