@@ -3,9 +3,12 @@ repo_url: https://github.com/Psuedoo/random-docs
 site_url: https://docs.psuedo.dev
 theme:
   name: material
+  palette:
+    scheme: slate
 markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.inlinehilite
+  - pymdownx.tasklist
