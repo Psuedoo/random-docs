@@ -22,8 +22,20 @@ If you aren't part of our Tailnet yet, ping Psuedo to get added.
 
 Some game servers may be exposed through our **SWAG Nginx** reverse proxy. This allows external access without Tailscale, using a friendly domain name.
 
+#### Automated Public Access (`pub-` prefix)
+
+The easiest way to make a game server publicly accessible is through a custom automation Psuedo has built:
+
+1. In AMP, rename the game instance to start with `pub-` (e.g., `pub-minecraft`).
+2. Wait ~2 minutes for the automation to pick up the change and expose the server at `games.psuedo.dev:<port>`.
+3. Share that address and port with anyone who needs to connect.
+
+#### Manual Nginx Configuration
+
+For custom domain names or advanced setups:
+
 1. Psuedo must configure the appropriate nginx proxy rules.
-2. Once set up, you'll receive a domain and port (e.g., `game.psuedo.dev:25565`).
+2. Once set up, you'll receive a domain and port (e.g., `games.psuedo.dev:25565`).
 3. Connect using that address from your game client.
 
 ### Port Forwarding (Manual)
